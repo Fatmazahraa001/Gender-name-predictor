@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #fe9a8b;
+  }
+  .container {
+    position: relative;
+    background-color: #ffffff;
+    max-width: 90%;
+    padding: 3rem 2rem;
+    margin: 3rem 2rem;
+    border-radius: 0.5rem;
+  }
+  .app-title {
+    font-weight: bold;
+    color: #fe9a8b;
+    font-size: 2em;
+    text-transform: uppercase;
+    width: 80%;
+    letter-spacing: 0.2em;
+  }
+  input {
+    outline: none;
+  }
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  #name,
+  #submit {
+    font-size: 1em;
+    padding: 0.8rem 1.5rem;
+  }
+  #name {
+    padding: 0.8em 0.5em;
+    border: 1px solid #020332;
+    border-radius: 0.5em;
+  }
+  #submit {
+    background-color: #fe9a8b;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+  }
+  #info {
+    padding: 2em 1em;
+    text-align: center;
+    border-radius: 0.9em;
+    background-color: #fe9a8b;
+  }
+  #result-name {
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #edecec;
+  }
+  #gender-icon {
+    display: block;
+    width: 5em;
+    position: relative;
+    margin: 2em auto 1em auto;
+  }
+  #gender {
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  #prob {
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    color: #edecec;
+  }
+  
