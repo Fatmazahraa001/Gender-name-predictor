@@ -6,6 +6,7 @@ let wrapper = document.getElementById("wrapper");
 let predictGender = () => {
   let name = document.getElementById("name").value;
   let error = document.getElementById("error");
+  const API_KEY = '0fb002df4c15830491bbe47cef4b0589e83abe7511be117773d276ca6f885a19';
   let finalURL = `https://gender-api.com/get?name=${name}&key=${API_KEY}`;
   console.log(name);
   console.log(finalURL);
